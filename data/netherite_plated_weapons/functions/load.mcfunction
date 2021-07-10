@@ -1,0 +1,1 @@
+schedule function netherite_plated_weapons:item_merge 1

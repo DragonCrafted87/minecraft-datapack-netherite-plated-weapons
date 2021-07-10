@@ -1,0 +1,44 @@
+[
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:trident\"}}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:bow\"}}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:crossbow\"}}"
+                }
+            }
+        ]
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "minecraft:item",
+            "stepping_on": {
+                "block": {
+                    "blocks": [
+                        "minecraft:damaged_anvil",
+                        "minecraft:chipped_anvil",
+                        "minecraft:anvil"
+                    ]
+                }
+            }
+        }
+    }
+]

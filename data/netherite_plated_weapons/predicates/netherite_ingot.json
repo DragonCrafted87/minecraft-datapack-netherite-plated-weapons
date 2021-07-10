@@ -1,0 +1,26 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:netherite_ingot\"}}"
+        }
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "minecraft:item",
+            "stepping_on": {
+                "block": {
+                    "blocks": [
+                        "minecraft:damaged_anvil",
+                        "minecraft:chipped_anvil",
+                        "minecraft:anvil"
+                    ]
+                }
+            }
+        }
+    }
+]
