@@ -1,1 +1,2 @@
 schedule function netherite_plated_weapons:item_merge 1
+schedule function netherite_plated_weapons:item_protect 1s
