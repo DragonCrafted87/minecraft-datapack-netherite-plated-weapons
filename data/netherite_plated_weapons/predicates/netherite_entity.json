@@ -3,8 +3,8 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "type": "minecraft:item",
-            "nbt": "{Item:{tag:{isNetherite:1b}}}"
+            "nbt": "{Item:{tag:{isNetherite:1b}}}",
+            "type": "minecraft:item"
         }
     }
 ]
